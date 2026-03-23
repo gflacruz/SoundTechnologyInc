@@ -22,6 +22,17 @@
     <!-- custom (main) css -->
     <link rel="stylesheet" href="css/main.css">
   </head>
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VHPDN529B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-5VHPDN529B');
+    </script>
+
   <body>
     
     <!-- header -->
@@ -290,9 +301,10 @@
         <div class = "row wow animate__animated animate__fadeInUp animate__slow">
           <div class = "contact-left">
             <h2>Send Message Here</h2>
-            <form action="https://openformstack.com/f/clzfi97uk000612n7p5llf71w" method="POST">
+            <form action="https://formsubmit.co/service@soundtechnologyinc.com" method="POST">
               <input type = "text" class = "form-control" placeholder="Name" required name="name">
-              <input type="hidden" name="_gotcha" style="display:none !important">
+              <input type="text" name="_honey" style="display:none">
+              <input type="hidden" name="_template" value="table">
               <input type = "email" class = "form-control" placeholder="Email"required name="email">
               <input type = 'tel' class = 'form-control' placeholder="Phone Number (Optional)" name="phone-number">
               <textarea name="message" placeholder="Message" rows = "6" required></textarea>
